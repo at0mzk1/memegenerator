@@ -1,0 +1,26 @@
+{
+  "name": "memegen",
+  "version": "0.0.1",
+  "description": "API that handles meme creation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "at0mz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.14.0",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^8.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.0",
+    "express-form-data": "^2.0.8",
+    "hasha": "^5.0.0",
+    "jimp": "^0.6.4",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.6"
+  }
+}
